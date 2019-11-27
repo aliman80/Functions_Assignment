@@ -228,6 +228,12 @@ print(grocery.split(':'))
 #28 The input() method reads a line from input, converts into a string and returns it.
 inputString = input()
 print('The inputted string is:', inputString)
+# The bytes() method returns a immutable bytes object initialized with the given size and data.
+string = "Python is interesting."
+
+# string with encoding 'utf-8'
+arr = bytes(string, 'utf-8')
+print(arr)
 
 
 
