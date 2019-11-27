@@ -225,6 +225,10 @@ print(grocery.split(', '))
 # Splitting at ':'
 print(grocery.split(':'))
 
+#28 The input() method reads a line from input, converts into a string and returns it.
+inputString = input()
+print('The inputted string is:', inputString)
+
 
 
 
