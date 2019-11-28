@@ -235,6 +235,11 @@ string = "Python is interesting."
 arr = bytes(string, 'utf-8')
 print(arr)
 
+#29 PEMDAS Equation
+    
+ans = 2*3+4-1/2
 
+
+print(float(ans))
 
 
